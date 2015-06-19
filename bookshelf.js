@@ -1,5 +1,5 @@
 var pg = require('knex')({
-  client: pg,
+  client: 'pg',
   connection: process.env.PG_CONNECTION_STRING
 });
 
